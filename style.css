@@ -1,26 +1,50 @@
 body{
 background-color: hsl(218, 28%, 13%);
+z-index: 0
 }
 
 .top-color{
     background-color: hsl(217, 28%, 15%);
 }
 
+.nav-spacer{
+    padding: 40px;
+}
+
+.logo-sizer{
+    width: 80%
+}
+
+
+.curve{
+    z-index: -1;
+    margin-left:auto; 
+    margin-right:auto
+}
+
 .heading-text {
     color:hsl(0, 0%, 100%);
     font-family: 'Raleway', sans-serif;
-    font-weight: 400, 700;
     font-size: 32px;
+    font-weight: 700;
 }
 
 .greet-image{
     width: 75%;
 }
 
+
 .intro-block{
+    position: relative;
     text-align: center;
     margin: auto;
     width: 50%;
+    
+}
+
+.block-small{
+    width: 65%;
+    margin: auto;
 }
 .btn-gradient{
     background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
@@ -37,7 +61,13 @@ background-color: hsl(218, 28%, 13%);
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    font-weight: 400, 700;
+}
+
+.body-text-bold{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 

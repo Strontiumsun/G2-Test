@@ -15,18 +15,18 @@ z-index: 0
     width: 80%
 }
 
-
-.curve{
-    z-index: -1;
-    margin-left:auto; 
-    margin-right:auto
-}
-
 .heading-text {
     color:hsl(0, 0%, 100%);
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
     font-weight: 700;
+}
+
+.emphasis-text {
+    color:hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .greet-image{
@@ -39,7 +39,15 @@ z-index: 0
     text-align: center;
     margin: auto;
     width: 50%;
-    
+}
+
+
+.mid-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
 }
 
 .block-small{
@@ -70,4 +78,70 @@ z-index: 0
     font-weight: 700;
 }
 
+.fake-link{
+    color: hsl(176, 68%, 64%);
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    width: 160px;
+}
 
+.container-custom {
+    padding: 70px;
+}
+
+.row-sizer{
+    margin: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.col-custom {
+    text-align: center;  
+}
+
+.col-text{
+    padding: 40px;
+}
+
+.widther{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.head-width{
+    padding-top: 40px;
+    width: 300px;
+}
+.col-img2{
+    height: 64px;
+    margin: 20px;
+}
+
+.col-img1{
+    height: 78px;
+    margin: 20px;
+}
+
+.col-inside{
+    position: relative;
+    background-color: hsl(219, 30%, 18%);
+    padding: 25px;
+    height: 200px;
+    z-index: 3;
+}
+
+.quotes{
+    position: absolute;
+    left: -3px;
+    top: -35px;
+    z-index: 1;
+}
+
+.adder{
+    position: relative;
+}
+
+.profile-img{
+    border-radius: 50%;
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+}

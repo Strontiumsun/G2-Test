@@ -12,7 +12,7 @@ z-index: 0
 }
 
 .logo-sizer{
-    width: 80%
+    width: 150px;
 }
 
 .heading-text {
@@ -139,6 +139,10 @@ z-index: 0
     position: relative;
 }
 
+.profile-container{
+    margin: 100px;
+}
+
 .profile-img{
     border-radius: 50%;
     width: 30px;
@@ -166,5 +170,48 @@ z-index: 0
 
 .float-box{
     background-color: hsl(217, 28%, 15%);
-    margin: 40px;
+    margin-top: 150px;
+    margin-bottom: 70px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.float-box-width{
+    width: 850px;
+    margin: auto;
+}
+
+.form-sizer{
+    width: 400px;
+    height: 52px;
+    padding: 20px;
+}
+
+.form-row-sizer{
+    margin-top: 35px;
+}
+
+.custom-footer{
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 0;
+}
+
+.logo-col{
+    margin-bottom: 20px;
+}
+
+
+.social-icons{
+    width: 30px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    margin: 5px;
+    
 }

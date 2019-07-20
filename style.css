@@ -3,51 +3,8 @@ background-color: hsl(218, 28%, 13%);
 z-index: 0
 }
 
-.top-color{
-    background-color: hsl(217, 28%, 15%);
-}
-
-.nav-spacer{
-    padding: 40px;
-}
-
-.logo-sizer{
-    width: 150px;
-}
-
-.heading-text {
-    color:hsl(0, 0%, 100%);
-    font-family: 'Raleway', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-}
-
-.emphasis-text {
-    color:hsl(0, 0%, 100%);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.greet-image{
-    width: 75%;
-}
-
-
-.intro-block{
+.adder{
     position: relative;
-    text-align: center;
-    margin: auto;
-    width: 50%;
-}
-
-
-.mid-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-
 }
 
 .block-small{
@@ -78,38 +35,6 @@ z-index: 0
     font-weight: 700;
 }
 
-.fake-link{
-    color: hsl(176, 68%, 64%);
-    border-bottom: 1px solid hsl(176, 68%, 64%);
-    width: 160px;
-}
-
-.container-custom {
-    padding: 70px;
-}
-
-.row-sizer{
-    margin: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-.col-custom {
-    text-align: center;  
-}
-
-.col-text{
-    padding: 40px;
-}
-
-.widther{
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-.head-width{
-    padding-top: 40px;
-    width: 300px;
-}
 .col-img2{
     height: 64px;
     margin: 20px;
@@ -128,6 +53,119 @@ z-index: 0
     z-index: 3;
 }
 
+.col-custom {
+    text-align: center;  
+}
+
+.col-text{
+    padding: 40px;
+}
+
+.container-custom {
+    padding: 70px;
+}
+
+.custom-footer{
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    padding-right: 40px;
+    margin-bottom: 0;
+}
+
+.emphasis-text {
+    color:hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.fake-link{
+    color: hsl(176, 68%, 64%);
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    width: 160px;
+}
+
+.float-box{
+    background-color: hsl(217, 28%, 15%);
+    margin-top: 150px;
+    margin-bottom: 70px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.float-box-width{
+    width: 850px;
+    margin: auto;
+}
+
+.form-row-sizer{
+    margin-top: 35px;
+}
+
+.form-sizer{
+    width: 400px;
+    height: 52px;
+    padding: 20px;
+}
+
+.greet-image{
+    width: 75%;
+}
+
+
+.heading-text {
+    color:hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.head-width{
+    padding-top: 40px;
+    width: 300px;
+}
+
+.icon{
+    margin: 10px;
+}
+
+.intro-block{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.logo-col{
+    margin-bottom: 30px;
+}
+
+
+.logo-sizer{
+    width: 150px;
+}
+
+
+
+.nav-spacer{
+    padding: 40px;
+}
+
+
+.mid-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}
+
 .quotes{
     position: absolute;
     left: -3px;
@@ -135,9 +173,12 @@ z-index: 0
     z-index: 1;
 }
 
-.adder{
-    position: relative;
+.row-sizer{
+    margin: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
+
 
 .profile-container{
     margin: 100px;
@@ -168,43 +209,9 @@ z-index: 0
     margin-bottom: 0;
 }
 
-.float-box{
-    background-color: hsl(217, 28%, 15%);
-    margin-top: 150px;
-    margin-bottom: 70px;
-    text-align: center;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    padding-right: 70px;
-    padding-left: 70px;
-}
 
-.float-box-width{
-    width: 850px;
-    margin: auto;
-}
-
-.form-sizer{
-    width: 400px;
-    height: 52px;
-    padding: 20px;
-}
-
-.form-row-sizer{
-    margin-top: 35px;
-}
-
-.custom-footer{
-    background-color: hsl(216, 53%, 9%);
-    padding-top: 200px;
-    padding-bottom: 100px;
-    padding-left: 40px;
-    padding-right: 40px;
+.slicer{
     margin-bottom: 0;
-}
-
-.logo-col{
-    margin-bottom: 20px;
 }
 
 
@@ -212,6 +219,15 @@ z-index: 0
     width: 30px;
     -webkit-filter: invert(100%);
     filter: invert(100%);
-    margin: 5px;
-    
+    margin: 5px; 
+}
+
+.top-color{
+    background-color: hsl(217, 28%, 15%);
+}
+
+
+.widther{
+    padding-left: 40px;
+    padding-right: 40px;
 }

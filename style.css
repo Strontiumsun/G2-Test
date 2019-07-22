@@ -212,9 +212,6 @@ z-index: 0
     width: 30px;
 }
 
-.profile-spacer{
-    margin-left: 10px;
-}
 
 .profile-name{
     font-family: 'Open Sans', sans-serif;
@@ -230,6 +227,10 @@ z-index: 0
     font-weight: 400;
     color: hsl(0, 0%, 100%);
     margin-bottom: 0;
+}
+
+.profile-spacer{
+    margin-left: 10px;
 }
 
 
@@ -250,8 +251,36 @@ z-index: 0
     width: auto;
 }
 
-
 .widther{
     padding-left: 40px;
     padding-right: 40px;
+}
+
+@media screen and (max-width: 375px) {
+    .body-text-sm{
+        font-size: 12px;
+        
+    }
+
+
+    .col-inside{
+        padding: 22px;
+        margin-bottom: 30px;
+    }
+
+    .quotes{
+        width: 30px;
+        position: relative;
+        left: 0;
+        top: 3px;
+    }
+
+    .profile-container{
+        margin: 0px;
+        padding: 50px;
+    }
+
+    .profile-spacer{
+        margin-left: 25px;
+    }
 }

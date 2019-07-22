@@ -72,11 +72,16 @@ z-index: 0
     padding: 70px;
 }
 
-.curve{
+.curve-big{
+    display: block;
     width: 100%;
     position: absolute;
     z-index: 1;
     top: 90%;
+}
+
+.curve-small{
+    display: none;
 }
 
 .custom-footer{
@@ -257,6 +262,12 @@ z-index: 0
 }
 
 @media screen and (max-width: 375px) {
+    .block-small{
+        width: 100%;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
     .body-text-sm{
         font-size: 12px;
         
@@ -271,8 +282,9 @@ z-index: 0
         margin-bottom: 20px;
     }
 
-    .col-spacer {
-        margin-bottom: 20px;
+    .col-custom{
+        padding: 0;
+        margin-bottom: 40px;
     }
 
     .col-inside{
@@ -280,11 +292,37 @@ z-index: 0
         margin-bottom: 30px;
     }
 
+    .col-spacer {
+        margin-bottom: 20px;
+    }
+
+    .col-text{
+        padding: 15px;
+    }
+
+    .container-custom{
+        padding: 50px;
+    }
+
+
     .custom-footer{
         padding-left: 40px;
         padding-right: 40px;
         padding-bottom: 60px;
     }
+
+    .curve-big{
+        display: none;
+    }
+
+    .curve-small{
+        display: block;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        top: 56%;
+    }
+
 
     .float-box{
         padding-left: 25px;
@@ -296,17 +334,40 @@ z-index: 0
         width: 250px;
     }
 
+    .greet-text{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     .heading-text{
-        font-size: 18px;
+        font-size: 24px;
+    }
+    .heading-text-2{
+    font-size: 18px;
     }
 
     .icon{
         margin-left: 0;
     }
 
+    .intro-block{
+        width: auto;
+        padding: 15px;
+    }
+
+    .logo-sizer-2{
+        width: 100px;
+    }
     .logo-sizer-sm{
         width: 180px;
         margin-left: 10px;
+    }
+
+    .nav-link{
+        padding: 10px;
+    }
+    .nav-spacer{
+        padding: 15px;
     }
 
     .quotes{
@@ -323,5 +384,13 @@ z-index: 0
 
     .profile-spacer{
         margin-left: 25px;
+    }
+
+    .row-sizer{
+        margin: 0;
+    }
+
+    .widther{
+        padding: 0;
     }
 }
